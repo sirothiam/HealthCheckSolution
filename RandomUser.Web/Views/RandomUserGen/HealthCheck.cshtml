@@ -1,0 +1,19 @@
+﻿@model HealthStatus
+<div class="card-body p-4">
+    <table id="tblData" class="table table-bordered table-striped pt-3" style="width:100%">
+        <thead>
+            <tr style="text-align:center">
+                <th><span style="color:blue;font-weight:bold">Status Of Service:</span> <span style="color:darkolivegreen;font-weight:bold">@($" {@Model.status}")</span></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="text-align:center">
+                <td>
+                    <a class="button button4" asp-area="" asp-controller="RandomUserGen" asp-action="Index">Display Random User </a>
+                </td>
+                
+            </tr>
+            
+        </tbody>
+        </table>
+</div>
